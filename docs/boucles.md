@@ -1,5 +1,7 @@
 # 4. Boucles
 
+## Qu'est-ce qu'une boucle ?
+
 Pour faire votre carré, vous avez dû répéter 4 fois la même opération : "avance de 100 et tourne à gauche de 90°".
 
 Pour simplifier le code, on va créer une boucle : on indique à la machine qu'elle va répéter n fois la même suite d'opérations.
@@ -11,6 +13,9 @@ Essayez le code suivant :
 for _ in range(10):
     print("Hello!")
 ```
+
+## Faire un carré
+
 Dans le cas de notre carré, nous aurons ceci :
 ```python
 for _ in range(4):
@@ -18,7 +23,8 @@ for _ in range(4):
     franklin.left(90)
 ```
 
-Description : 
+## Explications du code
+
 - "for" = début de la boucle "pour"
 - le symbole "_" signifie qu'on n'a pas besoin d'utiliser le compteur
 - range(4) : on utilise un ensemble de 4 éléments, donc on effectuera 4 tours
