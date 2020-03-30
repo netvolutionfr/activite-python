@@ -1,0 +1,11 @@
+site_name: Activité Python SNT 2GT
+theme:
+  name: 'material'
+  language: 'fr'
+nav:
+    - Introduction: index.md
+    - 1. Départ: depart.md
+    - 2. Dessiner: dessin.md
+    - 3. Variables: variables.md
+    - 4. Boucles: boucles.md
+    - 5. Fonctions: fonctions.md
